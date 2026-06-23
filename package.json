@@ -1,8 +1,9 @@
 {
   "name": "fala-kriolu",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
     "@supabase/supabase-js": "^2.108.2",
     "expo": "~54.0.0",
     "expo-constants": "~18.0.13",
@@ -22,5 +23,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  }
 }
