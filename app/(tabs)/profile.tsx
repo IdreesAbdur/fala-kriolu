@@ -27,7 +27,7 @@ export default function ProfileScreen() {
 }
 
 const styles = StyleSheet.create({
-    cntainer: { flex: 1, padding: 20 },
+    container: { flex: 1, padding: 20 },
     stat: { fontSize: 18, marginBottom: 16, fontWeight: '600' },
     row: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 20 },
 });
